@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/uhu/git/CompilerConstruction/project/MiniJava_1/src/ch/unibe/iam/scg/minijava/bcel/generator'
+let g:netrw_dirhist_2='/Users/uhu/git/judos/compilerconstruction/project1/MiniJava_eclipse_project'
+let g:netrw_dirhist_3='/Users/uhu'

@@ -1,0 +1,11 @@
+# ~/.tmuxinator/cc.yml
+# you can make as many tabs as you wish...
+
+project_name: CompilerConstruction
+project_root: ~/git/CompilerConstruction/project/MiniJava_1/bin
+socket_name: foo # Not needed.  Remove to use default socket
+tabs:
+  - loopUnrolling: javap -c Foo1
+  - peephole:  javap -c Foo2
+  - grammar: cd ../jtb && vim MinijavaIn.jj
+  - bash: 
