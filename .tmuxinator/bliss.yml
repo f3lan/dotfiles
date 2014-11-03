@@ -1,0 +1,11 @@
+project_name: bliss
+project_root: ~/git/bliss
+windows:
+  - vim: vim .
+  - git: git fetch
+  - console: rails c
+  - server: rails s -p 3001
+  - db: rails db
+  - test: 
+  - log: tail -f log/development.log
+  - ssh: ssh bliss@bliss.nile.ch -p 2560
